@@ -1,0 +1,26 @@
+{
+  "name": "dir",
+  "version": "0.0.1",
+  "description": "check package.json semantic version and auto install",
+  "main": "index.js",
+  "homepage": "https://github.com/zhantewei2/ztwx-check-manage",
+  "bin":{
+    "ztwx-check-package": "index-cli.js"
+  },
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ztwx/auto-template": "^0.0",
+    "@ztwx/logger": "~0.0.1",
+    "@ztwx/http": "^0.0.1",
+    "@ztwx/vue-md-loader": "^1.0.3",
+    "semver": "^7.1.3"
+  },
+  "keywords": [
+    "check",
+    "semantic",
+    "version",
+    "package"
+  ]
+}
